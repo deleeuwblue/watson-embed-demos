@@ -28,6 +28,4 @@ spec:
             defaultMode: 420
             secretName: storage-config
       restartPolicy: Never
-      imagePullSecrets:
-        - name: watson-nlp
   backoffLimit: 2

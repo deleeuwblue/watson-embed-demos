@@ -20,7 +20,7 @@ spec:
       - python3
       - -m
       - watson_runtime.grpc_server
-    image: cp.icr.io/cp/ai/watson-nlp-runtime:1.0.20
+    image: cp.icr.io/cp/ai/watson-nlp-runtime:1
     imagePullPolicy: IfNotPresent
     name: watson-nlp-runtime
 #    resources:
